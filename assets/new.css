@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: slateblue;
+    color: whitesmoke;
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: rgb(20, 230, 220);
+    font-size: 1.5rem;
+}
+a:hover{
+    text-decoration: underline;
+}
+.name,.text{
+    margin: 50px auto;
+    font-size: 1.5rem;
+}
+input{
+    font-size: 1.1rem;
+}
+button{
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border: solid 2px black;
+    border-radius: 25px;
+}
+button:hover{
+    color: whitesmoke;
+    background-color: slateblue;
+    border: solid 2px whitesmoke;
+    box-shadow: 1px 1px 4px  white;
+    transition: all 0.3s ease;
+    transform: translateY(-2px);    
+}
+.a{
+    margin-top: 10px;
+}
+textarea:focus{
+    color: white;
+    background-color: slateblue;
+}
+#name:focus{
+    color: white;
+    background-color: slateblue;
+}
